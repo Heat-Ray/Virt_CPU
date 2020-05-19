@@ -1,0 +1,7 @@
+MVI A 16
+MVI B 16
+ADD B
+CMP B
+MOV C A
+Cpp C
+DMP
