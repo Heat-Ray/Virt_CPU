@@ -11,7 +11,7 @@ Virt_CPU emulates a 8-bit CPU with 1 Kilobytes of memory.
 It has 8 8-bit registers and 12 different instructions that can be implemented on these 7 registers.
 >Build using -> g++ z80.cpp -o z80 -std=c++17
 
->Run using -> ./z80 xyz.asm (where xyz is name of assembly source file)
+>Run using -> ./z80 prog.asm (where prog is name of assembly source file)
 
 The emulator is divided into 2 parts :-
 
@@ -22,6 +22,8 @@ The emulator is divided into 2 parts :-
 The assembler takes in the written assembly source file and then converts it into the required opcode which is interpreted by the CPU.
 The assembler uses a STL map to determine the hex opcode of registers and instructions.
 This ensures that the conversion of source code to hexadecimal opcode happens in constant time.
+
+The syntax for the assmembly source is name of the instruction followed by operands all in caps and seperated by whitespaces.
 
 **The CPU**
 The CPU is built up of 8 registers and 1024 bytes of memory. The Instruction Set Architecture of the CPU is similar to that of Intel 8080.
