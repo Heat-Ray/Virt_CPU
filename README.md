@@ -8,7 +8,7 @@
 
 Virt_CPU emulates a 8-bit CPU with 1 Kilobytes of memory.
 
-It has 8 8-bit registers and 12 different instructions that can be implemented on these 7 registers.
+It has 8 8-bit registers and 12 different instructions that can be implemented on these registers.
 >Build using -> g++ z80.cpp -o z80 -std=c++17
 
 >Run using -> ./z80 prog.asm (where prog is name of assembly source file)
