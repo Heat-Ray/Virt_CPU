@@ -1,4 +1,3 @@
-
 **
 
 ## Virt_CPU is a virtual CPU emulator written in C++ which seeks to emulate the behaviour of Intel 8080 and Zilog Z80 series of CPUs.
@@ -30,6 +29,7 @@ The CPU is built up of 8 registers and 1024 bytes of memory. The Instruction Set
  3. **Registers**
  There are total 8 8-bit wide registers in Virt_CPU.
  A is the accumulator register, whereas B, C, D, E, H, L are 8-bit general purpose registers.
+ The last register is the 8-bit wide Program counter which helps in executing the instructions present in memory.
  
  4. **Instructions**
  As of now there are total 12 instruction implemented in Virt_CPU
@@ -54,5 +54,3 @@ There are 3 flags in our CPU
 > 1. The Overflow flag -> Flag is set when result of addition is greater than 255
  >2. The Underflow flag -> Flag is set when result of a subtraction is less than 0
 > 3. The Sign bit flag -> Used to represent negative numbers 
-
-
