@@ -50,8 +50,7 @@ If A is bigger than value of register *overflow* flag is set.
 
 5. **Flags**
 There are 3 flags in our CPU
+
  1.The Overflow flag -> Flag is set when result of addition is greater than 255
- 
  2.The Underflow flag -> Flag is set when result of a subtraction is less than 0
- 
  3.The Sign bit flag -> Used to represent negative numbers 
