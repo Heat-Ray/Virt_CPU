@@ -3,5 +3,5 @@ MVI B 16
 ADD B
 CMP B
 MOV C A
-Cpp C
+CMP C
 DMP
