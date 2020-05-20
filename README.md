@@ -1,4 +1,9 @@
-Virt_CPU is a virtual CPU written in C++ which seeks to emulate the behaviour of Intel 8080 and Zilog Z80 series of CPUs.
+
+**
+
+## Virt_CPU is a virtual CPU written in C++ which seeks to emulate the behaviour of Intel 8080 and Zilog Z80 series of CPUs.
+
+**
 ****************************************************************************************************************************
 
 
