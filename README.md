@@ -29,12 +29,12 @@ The syntax for the assmembly source is name of the instruction followed by opera
 The CPU is built up of 8 registers and 1024 bytes of memory. The Instruction Set Architecture of the CPU is similar to that of Intel 8080.
 12 instructions are also implemented as of now.
 
- 3. **Registers**
+ 1. **Registers**
  There are total 8 8-bit wide registers in Virt_CPU.
  A is the accumulator register, whereas B, C, D, E, H, L are 8-bit general purpose registers.
  The last register is the 8-bit wide Program counter which helps in executing the instructions present in memory.
  
- 4. **Instructions**
+ 2. **Instructions**
  As of now there are total 12 instruction implemented in Virt_CPU
  > 1. MOV -> moves data from one register to another
  > 2. MVI -> Loads integer data up to 255 into registers
@@ -52,7 +52,7 @@ The CPU is built up of 8 registers and 1024 bytes of memory. The Instruction Set
 The CMP instruction sets the *underflow flag* when both accumulator A and registers have same value.
 If A is bigger than value of register *overflow* flag is set.
 
-5. **Flags**
+3. **Flags**
 There are 3 flags in our CPU
 > 1. The Overflow flag -> Flag is set when result of addition is greater than 255
  >2. The Underflow flag -> Flag is set when result of a subtraction is less than 0
